@@ -1,6 +1,9 @@
 {
+    "plugins": ["jest"],
     "extends": [
         "standard",
-        "standard-react"
-    ]
+        "standard-react",
+        "plugin:jest/recommended"
+    ],
+    "globals": { "fetch": false }
 }
